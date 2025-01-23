@@ -38,7 +38,7 @@ a = 0.0
 b = 2.0
 h = 0.2  # Шаг табулирования
 epsilon_si = 1e-6
-
+points = [0.8, 2.0, 3.2]
 # Табулирование Si(x) на интервале [0.0, 2.0] с шагом 0.2
 x_values_tab = np.arange(a, b + h, h)
 si_values_tab = [si_taylor(x, epsilon_si) for x in x_values_tab]
